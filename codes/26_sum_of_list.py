@@ -1,0 +1,11 @@
+def sum_of_list(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter numbers separated by space: ").split()))
+    print("Sum:", sum_of_list(nums))
+    
